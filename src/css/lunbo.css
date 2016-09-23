@@ -1,0 +1,51 @@
+	
+			#main {
+				width: 1032px;
+				height: 400px;
+				position: relative;
+				
+				overflow: hidden;
+			}
+			
+			#main .pic {
+				width: 1032px;
+				height: 400px;
+
+			}
+			#main .pic ul {
+				position: absolute;
+				/*overflow: hidden;*/
+				top: 0;
+			}
+			#main .pic ul li {
+				width: 1032px;
+				height: 400px;
+				position: relative;
+				
+			}
+			#main .pic ul li .img1 {
+				position: absolute;
+				top: 0;
+				left: -560px;
+			}
+			#main .pic ul li .img2 {
+				position: absolute;
+				top: 0;
+				left: -20px;
+				display: none;
+			}
+			#main .nav {
+				position: absolute;
+				right: 500px;
+				bottom: 20px;
+			}
+			#main .nav ul li {
+				width: 10px;
+				height: 10px;
+				border: 1px solid #fff;
+				float: left;
+				margin-left: 5px;
+			}
+			#main .nav ul li.select{
+				background: #fff;
+			}

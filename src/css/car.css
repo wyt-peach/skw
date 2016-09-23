@@ -1,0 +1,59 @@
+
+
+
+
+
+.ys{width: 300px;height: 300px;background: #0ff;}
+
+#plist{width:1200px;margin:0 auto;}
+#plist>div{width: 1200px;height: 400px;}
+.pro{width: 160px;height: 200px;border: 1px solid #999;float: left;}
+ .pro p{overflow: hidden;white-space: nowrap;text-overflow: ellipsis; margin: 10px 15px;}
+#plist:after{content: ".";clear: both;
+display: block;height: 0;overflow: hidden;visibility: hidden;}
+
+
+/*top*/
+.top{background: #323130;}
+.top1{width: 1222px;height: 70px;margin: 0 auto;}
+.top1-1{width: 80px;height: 70px;float: left;}
+.top1-2{width: 240px;height: 70px;float: right; }
+
+.top1 img{margin-left:21px; }
+.top1-2 {margin-right:40px;}
+
+
+
+/*zb*/
+body{background: #f6f6f6;}
+.zb{margin:0 auto;}
+.zb{width: 1000px;min-height: 600px;}
+.car{width: 750px;height: 300px;padding:150px 0 0 200px;}
+.car1{width: 300px;height: 300px;float: left;}
+.car2{width: 450px;height: 300px;float: left;}
+.p1{font-size: 30px;margin: 20px 0;}
+.p2 a{width: 200px;height: 50px;background:red ;text-align: center;display: block;
+	color: #fff;line-height: 50px;font-size: 18px;font-weight: bold;}
+	.p2 a:hover{color: #fff;}
+.p2{margin-left: 50px;}
+/*xh*/
+.xh{width:1200px;height:270px;margin:0 auto;padding-bottom:30px;}
+
+.title{width:1150px;height: 40px;background: #ececec;
+	color: #666666;line-height: 40px;padding-left: 50px; }
+.content{width:1150px;height:230px;background: #fff;padding-left: 50px;}
+.cont1{width: 160px;height: 170px;padding: 30px ;float: left;}
+.pic{width: 120px;height: 120px;border: 1px #999999 solid;background: #0f0;margin-left:20px;}
+.pic img{width: 120px;height: 120px;}
+.sk1{white-space: nowrap;overflow: hidden;color: #666666}
+.sk2{margin-left: 50px;color:#666666;}
+.sk2 span{font-weight: bold;color:#666666;}
+
+
+/*bottom*/
+.bottom{width: 1250px;margin: 0 auto;}
+.bot1-1{width: 970px;height: 170px;float: left;}
+.bot1-2{width: 180px;height: 170px;float: left;padding-left: 100px;}
+.bot1-2 ul{float: left;padding-top: 40px;}
+.bot1-2 ul li {width: 80px;height: 25px;padding-left: 10px;}
+.bot2{padding-left: 300px;color: #666666;}
